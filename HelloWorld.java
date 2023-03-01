@@ -7,6 +7,7 @@ public class HelloWorld {
         int randomAnswer;
         randomAnswer = 350;
         long longerThanLife = 214748364669l;
+        float tooBigToFail = 1500f;
 
         System.out.println("Hello World!");
 
@@ -15,6 +16,7 @@ public class HelloWorld {
         System.out.println("globalAnswer = " + globalAnswer);
         System.out.println("randomAnswer = " + randomAnswer);
         System.out.println("longerThanLife = " + longerThanLife);
+        System.out.println("tooBigToFail = " + tooBigToFail);
     }
 
 }
