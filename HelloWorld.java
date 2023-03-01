@@ -25,5 +25,23 @@ public class HelloWorld {
         System.out.println("englishA = " + englishA);
         System.out.println("anyRuLetter = " + anyRuLetter);
         System.out.println("codeName70 = " + codeName70);
+
+        byte allMonthCountButNotWinter = 9;   // true
+        short february1996DayCount = 29;      // true
+        int halfOfTotalSpringDayCount = 46;   // true
+        long yearSecondCount = 31536000l;     // true
+        float quarterOfMayDayCount = 7.80f;   // true
+        double dayCountOfLongMonths = 217.0;  // true
+        char springLetter = 'r';              // true
+        boolean isLeap1900 = true;
+
+        System.out.println("allMonthCountButNotWinter: " + allMonthCountButNotWinter);
+        System.out.println("february1996DayCount: " + february1996DayCount);
+        System.out.println("halfOfTotalSpringDayCount: " + halfOfTotalSpringDayCount);
+        System.out.println("yearSecondCount: " + yearSecondCount);
+        System.out.println("quarterOfMayDayCount: " + quarterOfMayDayCount);
+        System.out.println("dayCountOfLongMonths: " + dayCountOfLongMonths);
+        System.out.println("springLetter: " + springLetter);
+        System.out.println("isLeap1900: " + isLeap1900);
     }
 }
