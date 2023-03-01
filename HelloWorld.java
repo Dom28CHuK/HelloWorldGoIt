@@ -1,4 +1,11 @@
 public class HelloWorld {
+    public int sum(int a, int b) {
+        return a + b;
+    }
+
+    public int sub(int a, int b) {
+        return a - b;
+    }
     public static void main(String[] args) {
 
         byte happyValue = 8;
@@ -43,5 +50,13 @@ public class HelloWorld {
         System.out.println("dayCountOfLongMonths: " + dayCountOfLongMonths);
         System.out.println("springLetter: " + springLetter);
         System.out.println("isLeap1900: " + isLeap1900);
+
+        HelloWorld math = new HelloWorld();
+
+        //Should be 5
+        System.out.println("math.sum(3, 2) = " + math.sum(3, 2));
+
+        //Should be 1
+        System.out.println("math.sub(3, 2) = " + math.sub(3, 2));
     }
 }
