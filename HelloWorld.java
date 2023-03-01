@@ -6,6 +6,7 @@ public class HelloWorld {
         int globalAnswer = 42;
         int randomAnswer;
         randomAnswer = 350;
+        long longerThanLife = 214748364669l;
 
         System.out.println("Hello World!");
 
@@ -13,6 +14,7 @@ public class HelloWorld {
         System.out.println("cold = " + cold);
         System.out.println("globalAnswer = " + globalAnswer);
         System.out.println("randomAnswer = " + randomAnswer);
+        System.out.println("longerThanLife = " + longerThanLife);
     }
 
 }
