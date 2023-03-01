@@ -6,6 +6,10 @@ public class HelloWorld {
     public int sub(int a, int b) {
         return a - b;
     }
+
+    public float twice(float number) {
+        return number / 0.50f;
+    }
     public static void main(String[] args) {
 
         byte happyValue = 8;
@@ -58,5 +62,8 @@ public class HelloWorld {
 
         //Should be 1
         System.out.println("math.sub(3, 2) = " + math.sub(3, 2));
+
+        //Should be 14
+        System.out.println("math.twice(7f) = " + math.twice(7));
     }
 }
