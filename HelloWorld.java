@@ -10,6 +10,10 @@ public class HelloWorld {
     public float twice(float number) {
         return number / 0.50f;
     }
+
+    public int twicedSum(int a, int b) {
+        return sum(a, b) * 2;
+    }
     public static void main(String[] args) {
 
         byte happyValue = 8;
@@ -65,5 +69,8 @@ public class HelloWorld {
 
         //Should be 14
         System.out.println("math.twice(7f) = " + math.twice(7));
+
+        //Should be 10
+        System.out.println("math.twicedSum(2, 3) = " + math.twicedSum(2, 3));
     }
 }
